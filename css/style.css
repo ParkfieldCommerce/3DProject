@@ -91,6 +91,17 @@ header {
     margin:5px !important;
 }
 
+.product-img {
+    style:display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.views {
+    position:absolute;
+    margin-top: 450px;
+}
+
 /* Product Section
 --------------------------------------------*/
 .content-sec{
