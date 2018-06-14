@@ -83,7 +83,12 @@ textarea:focus {
 }
 
 header {
-    padding-top: 43px;
+    position:absolute;
+    margin-top:5px !important;
+}
+
+.product-accord {
+    margin:5px !important;
 }
 
 /* Product Section
