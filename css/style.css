@@ -92,14 +92,17 @@ header {
 }
 
 .product-img {
-    style:display:flex;
+    display:flex;
     justify-content:flex-end;
     align-items:center;
 }
 
+.product-block {
+}
+
 .views {
-    position:absolute;
-    margin-top: 450px;
+    justify-content:space-around;
+    text-align:center;
 }
 
 /* Product Section
