@@ -83,7 +83,26 @@ textarea:focus {
 }
 
 header {
-    padding-top: 43px;
+    position:absolute;
+    margin-top:5px !important;
+}
+
+.product-accord {
+    margin:5px !important;
+}
+
+.product-img {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.product-block {
+}
+
+.views {
+    justify-content:space-around;
+    text-align:center;
 }
 
 /* Product Section

@@ -108,7 +108,7 @@ $(document).ready(function(){
                 var Azimuth_axis = new THREE.Vector3(0, 1, 0);
                 var Polar_axis = new THREE.Vector3(1, 0, 0);
                 
-                var CameraPos = new THREE.Vector3(0, 0, 8-zoom);
+                var CameraPos = new THREE.Vector3(0, 0, 6-zoom);
                 CameraPos.applyAxisAngle(Polar_axis, polar);
                 CameraPos.applyAxisAngle(Azimuth_axis, azimuth);
                 CameraPos.y += 1.5;
@@ -119,7 +119,7 @@ $(document).ready(function(){
             $(".changeCam").click(function(){
                 var coords = {  polar:      app.controls.getPolarAngle()-Math.PI/2,
                                 azimuth:    app.controls.getAzimuthalAngle(),
-                                zoom:       8-app.camera.position.distanceTo(new THREE.Vector3(0,1.50,0))};
+                                zoom:       6-app.camera.position.distanceTo(new THREE.Vector3(0,1.50,0))};
                 var end = {     polar:      parseFloat($(this).data("camera-polar"))*Math.PI/180,
                                 azimuth:    parseFloat($(this).data("camera-azimuth"))*Math.PI/180,
                                 zoom:       parseFloat($(this).data("camera-zoom"))};
